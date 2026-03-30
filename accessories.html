@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Hassan Watches | الإكسسوارات</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --silver: #c0c0c0; --gold: #d4af37; --bg: #0a0a0a; --card-bg: #161616; }
+        body { background-color: var(--bg); color: #fff; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; }
+        
+        .main-nav { 
+            background: #1a1a1a; border-bottom: 2px solid var(--silver); 
+            padding: 12px 20px; position: sticky; top: 0; z-index: 1000;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .nav-logo { color: var(--silver); font-weight: bold; text-decoration: none; font-size: 1.1rem; }
+        .btn-back { border: 1px solid var(--silver); color: var(--silver); padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; }
+
+        .container { padding: 15px; }
+        .section-title { color: var(--silver); text-align: center; margin: 25px 0; font-size: 1.6rem; font-weight: bold; }
+
+        .acc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        .acc-card { 
+            background: var(--card-bg); border-radius: 18px; overflow: hidden; 
+            border: 1px solid #222; text-align: center; display: flex; flex-direction: column;
+        }
+        .acc-img { width: 100%; height: 160px; object-fit: cover; border-bottom: 1px solid #222; }
+        .acc-info { padding: 12px; flex-grow: 1; }
+        .acc-name { font-size: 0.9rem; margin-bottom: 10px; color: #eee; min-height: 2.4em; }
+
+        .btn-inquiry { 
+            display: block; width: 100%; background: transparent; border: 1px solid var(--gold); 
+            color: var(--gold); padding: 6px 0; border-radius: 8px; text-decoration: none; 
+            font-size: 0.85rem; font-weight: bold; transition: 0.3s;
+        }
+        .btn-inquiry:hover { background: var(--gold); color: #000; }
+    </style>
+</head>
+<body>
+
+<nav class="main-nav">
+    <a href="index.html" class="nav-logo">HASSAN ACCESSORIES</a>
+    <a href="index.html" class="btn-back">← الساعات</a>
+</nav>
+
+<div class="container">
+    <h2 class="section-title">عالم الإكسسوارات الفاخرة</h2>
+    <div class="acc-grid">
+        <div class="acc-card">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500" class="acc-img">
+            <div class="acc-info">
+                <div class="acc-name">خاتم فضة ملكي</div>
+                <a href="#" class="btn-inquiry">استفسار | Inquiry</a>
+            </div>
+        </div>
+        <div class="acc-card">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500" class="acc-img">
+            <div class="acc-info">
+                <div class="acc-name">سوار ذهبي فخم</div>
+                <a href="#" class="btn-inquiry">استفسار | Inquiry</a>
+            </div>
+        </div>
+        <div class="acc-card">
+            <img src="https://images.unsplash.com/photo-1590548784585-645d817c60b2?w=500" class="acc-img">
+            <div class="acc-info">
+                <div class="acc-name">قلادة عصرية</div>
+                <a href="#" class="btn-inquiry">استفسار | Inquiry</a>
+            </div>
+        </div>
+        <div class="acc-card">
+            <img src="https://images.unsplash.com/photo-1635767798638-3e25273a8236?w=500" class="acc-img">
+            <div class="acc-info">
+                <div class="acc-name">أزرار قميص راقية</div>
+                <a href="#" class="btn-inquiry">استفسار | Inquiry</a>
+            </div>
+        </div>
+        <div class="acc-card">
+            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500" class="acc-img">
+            <div class="acc-info">
+                <div class="acc-name">سوار جلد رجالي</div>
+                <a href="#" class="btn-inquiry">استفسار | Inquiry</a>
+            </div>
+        </div>
+        <div class="acc-card">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500" class="acc-img">
+            <div class="acc-info">
+                <div class="acc-name">طقم إكسسوار متكامل</div>
+                <a href="#" class="btn-inquiry">استفسار | Inquiry</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center p-4" style="color: #444; font-size: 0.8rem; text-align: center;">
+    © 2026 Hassan Watches - Accessories Collection
+</footer>
+
+</body>
+</html>
