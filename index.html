@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Hassan Watches | الساعات</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --gold: #d4af37; --bg: #0a0a0a; --card-bg: #161616; }
+        body { background-color: var(--bg); color: #fff; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; }
+        
+        .main-nav { 
+            background: #1a1a1a; border-bottom: 2px solid var(--gold); 
+            padding: 12px 20px; position: sticky; top: 0; z-index: 1000;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .nav-logo { color: var(--gold); font-weight: bold; text-decoration: none; font-size: 1.1rem; }
+        .btn-acc { border: 1px solid var(--gold); color: var(--gold); padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; }
+
+        .container { padding: 15px; }
+        .section-title { color: var(--gold); text-align: center; margin: 25px 0; font-size: 1.6rem; font-weight: bold; }
+
+        /* شبكة المنتجات - عنصرين في كل صف */
+        .watch-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        .watch-card { 
+            background: var(--card-bg); border-radius: 18px; overflow: hidden; 
+            border: 1px solid #222; text-align: center; display: flex; flex-direction: column;
+            transition: 0.3s;
+        }
+        .watch-img { width: 100%; height: 160px; object-fit: cover; border-bottom: 1px solid #222; }
+        .watch-info { padding: 12px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+        .watch-name { font-size: 0.9rem; margin-bottom: 10px; color: #eee; min-height: 2.4em; }
+
+        .btn-inquiry { 
+            background: transparent; border: 1px solid var(--gold); color: var(--gold); 
+            padding: 6px 0; border-radius: 8px; text-decoration: none; 
+            font-size: 0.85rem; font-weight: bold; transition: 0.3s;
+        }
+        .btn-inquiry:hover { background: var(--gold); color: #000; }
+    </style>
+</head>
+<body>
+
+<nav class="main-nav">
+    <a href="index.html" class="nav-logo">HASSAN WATCHES</a>
+    <a href="accessories.html" class="btn-acc">الإكسسوارات ←</a>
+</nav>
+
+<div class="container">
+    <h2 class="section-title">أفخم تشكيلة ساعات لعام 2026</h2>
+    <div class="watch-grid">
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Silver Classic</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1547996160-81dfa63595dd?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Sport Black</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Gold Master</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1508685096489-7aac291253f6?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Royal Blue</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Modern Minimal</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Vintage Brown</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1517464550242-18e4758826f0?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Titanium Sport</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Classic Leather</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1619134778706-7015533a6150?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Elite Silver</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1434056886845-dac89f9a9829?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Ladies Rose Gold</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1548171916-042ad96f13ad?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Deep Green</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+        <div class="watch-card">
+            <img src="https://images.unsplash.com/photo-1549439602-43ebca2327af?w=400" class="watch-img">
+            <div class="watch-info"><div class="watch-name">Smart Pro Black</div><a href="#" class="btn-inquiry">استفسار | Inquiry</a></div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center p-4" style="color: #444; font-size: 0.8rem;">
+    © 2026 Hassan Watches - Excellence in Time
+</footer>
+
+</body>
+</html>
+EOF
